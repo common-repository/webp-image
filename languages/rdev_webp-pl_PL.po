@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WEBP\n"
+"POT-Creation-Date: 2019-10-06 19:27+0200\n"
+"PO-Revision-Date: 2020-08-13 14:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ../assets\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: webp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: adminpage.php\n"
+"X-Poedit-SearchPath-1: class.php\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/adminpage.php:50
+msgid "Status"
+msgstr "Status"
+
+#: assets/adminpage.php:54
+msgid "Total images"
+msgstr "Wszystkie obrazy"
+
+#: assets/adminpage.php:58
+msgid "JPEG images"
+msgstr "Obrazy JPEG"
+
+#: assets/adminpage.php:62
+msgid "WebP Alternatives"
+msgstr "Alternatywy WebP"
+
+#: assets/adminpage.php:66
+msgid "How to use this plugin on the site?"
+msgstr "Jak używać tej wtyczki na stronie?"
+
+#: assets/adminpage.php:94
+msgid "Converter"
+msgstr "Konwerter"
+
+#: assets/adminpage.php:99
+msgid "Your images are being converted..."
+msgstr "Twoje obrazy są właśnie konwertowane..."
+
+#: assets/adminpage.php:107
+msgid "Click here to add WebP alternatives to all JPEG's"
+msgstr "Kliknij tutaj aby dodać altarnatywy WebP dla wszystkich obrazów JPEG"
+
+#: assets/adminpage.php:158
+msgid "Success"
+msgstr "Sukces"
+
+#: assets/adminpage.php:159
+msgid "File conversion completed successfully"
+msgstr "Konwersja została zakończona pomyślnie"
+
+#: assets/adminpage.php:159
+msgid "Converted JPEG"
+msgstr "Przekonwertowane JPEG"
+
+#: assets/adminpage.php:159
+msgid "Errors"
+msgstr "Błędy"
+
+#: assets/adminpage.php:163 assets/adminpage.php:168
+msgid "Error"
+msgstr "Błąd"
+
+#: assets/adminpage.php:164
+msgid "The form contains errors"
+msgstr "Formularz zawiera błędy"
+
+#: assets/adminpage.php:169
+msgid "The converter is currently blocked. Wait a moment..."
+msgstr "Konwerter jest w tej chwili zablokowany. Poczekaj chwilę..."
+
+#: assets/class.php:74 assets/class.php:75
+msgid "WebP Panel"
+msgstr "Panel WebP"
+
+#: assets/class.php:87
+msgid "JPEG to WebP converter"
+msgstr "Konwerter JPEG do WebP"
+
+#: assets/class.php:153
+msgid "WebP Alternative"
+msgstr "Alternatywa WebP"
+
+#: assets/class.php:156
+msgid ""
+"If the image has its alternative version in the WebP format, a link to it "
+"will be displayed above."
+msgstr ""
+"Jeśli obrazek ma swój odpowiednik w formacie WebP, link do niego zostanie "
+"wyświetlony powyżej."
+
+#: assets/class.php:294
+#, php-format
+msgid ""
+"Your PHP version is outdated. Please, upgrade your PHP to a higher or equal "
+"version than %s."
+msgstr ""
+"Twoja wersja PHP jest przestarzała. Proszę zaktualizuj swoje PHP to wersji "
+"wyższej lub równej %s."
+
+#: assets/class.php:297
+msgid ""
+"Your server does not have the proper libraries to process JPEG images into "
+"WebP.<br/>Missing functions: <i>imagecreatefromjpeg, imagejpeg, imagewebp, "
+"imagecreatefromstring</i>"
+msgstr ""
+"Twój serwer nie wspiera wszystkich niezbędnych bibliotek na potrzeby "
+"przetworzenia JPEG na WebP.<br/>Brakujące funkcje: <i>imagecreatefromjpeg, "
+"imagejpeg, imagewebp, imagecreatefromstring</i>"
+
+#: assets/class.php:300
+msgid "There was an unidentified error. We should look deeper..."
+msgstr "Wystąpił nieoczekiwany błąd. Spróbujmy zajrzeć głębiej..."
+
+#: assets/class.php:304
+msgid "ERROR ID"
+msgstr "KOD BŁĘDU"
+
+#. Plugin Name of the plugin/theme
+msgid "WebP"
+msgstr "WebP"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/webp/"
+msgstr "http://wordpress.org/plugins/webp/"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple plugin that will facilitate the use of WebP images on your website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RapidDev"
+msgstr "RapidDev"
+
+#. Author URI of the plugin/theme
+msgid "https://rdev.cc/"
+msgstr "https://rdev.cc/"
+
+#~ msgid "Your server does not support PHP version"
+#~ msgstr "Twój serwer nie wspiera PHP w wersji"
